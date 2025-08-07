@@ -1,7 +1,7 @@
 # 🌸 Aesthetic To-Do List Web App
 
 A cute, minimal, and responsive To-Do List app built using **Tailwind CSS**, **Vanilla JavaScript**, and a sprinkle of confetti magic.  
-Manage your tasks with motivation, categories, emojis, and dark mode support! ✨
+Manage your tasks with motivation, categories, emojis, and dark mode support! 
 
 ---
 
@@ -18,9 +18,13 @@ Manage your tasks with motivation, categories, emojis, and dark mode support! �
 
 ---
 
-## Screenshot
+## Screenshots
 
-![To-Do App Preview](light mode.png)(Dark mode.png)
+### Light Mode
+![Light Mode](./light mode.png)
+
+### Dark Mode
+![Dark Mode](./Dark mode.png)
 
 ---
 
@@ -37,14 +41,14 @@ cd Aesthetic-To-do-List
 
 Open the project in your browser by simply double-clicking on index.html or serving it using a local server (like Live Server in VSCode).
 
-### 3. Built With 
+## Built With 
 
 - Tailwind CSS (via CDN)
 - Vanilla JavaScript
 - HTML5
 - CSS3
 
-### 4. Credits
+## Credits
 
 - Canvas Confetti for the confetti animation.
 - Lucide Icons for SVG icons.
