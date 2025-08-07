@@ -21,10 +21,10 @@ Manage your tasks with motivation, categories, emojis, and dark mode support!
 ## Screenshots
 
 ### Light Mode
-![Light Mode](./light mode.png)
+![Light Mode](./light-mode.png)
 
 ### Dark Mode
-![Dark Mode](./Dark mode.png)
+![Dark Mode](./dark-mode.png)
 
 ---
 
