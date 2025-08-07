@@ -1,0 +1,50 @@
+body {
+  font-family: 'Comic Neue', cursive;
+}
+
+.task-card {
+  transform: rotate(var(--rotation));
+  transition: all 0.3s ease;
+}
+
+.task-card:hover {
+  transform: rotate(0deg) scale(1.05);
+}
+
+.task-checkbox {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid #d8b4fe;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.task-checkbox:checked {
+  background-color: #a855f7;
+  border-color: #a855f7;
+}
+
+.task-checkbox:checked::after {
+  content: "✓";
+  position: absolute;
+  color: white;
+  font-size: 0.6rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Dark Mode */
+.dark .task-checkbox {
+  border-color: #c084fc;
+}
+
+.dark .task-checkbox:checked {
+  background-color: #c084fc;
+  border-color: #c084fc;
+}
+
